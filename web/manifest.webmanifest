@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Block Puzzle: Brain Blast",
+  "short_name": "Brain Blast",
+  "description": "Free block puzzle brain game. Drag blocks, clear lines, chain combos and collect jewels. Works offline.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b4dcf",
+  "theme_color": "#1f55d6",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

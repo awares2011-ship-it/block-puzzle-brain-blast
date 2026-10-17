@@ -1,0 +1,22 @@
+# Build outputs
+**/build/
+.gradle/
+**/.gradle/
+
+# Android local + secrets
+local.properties
+keystore.properties
+*.jks
+*.keystore
+keystore-password.txt
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.cxx/
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Live AdMob units, used in every build (debug and release). -->
+<resources>
+    <string name="ad_banner" translatable="false">ca-app-pub-1607968585289432/3017191284</string>
+    <string name="ad_interstitial" translatable="false">ca-app-pub-1607968585289432/5960330653</string>
+    <string name="ad_native" translatable="false">ca-app-pub-1607968585289432/7546629087</string>
+    <string name="ad_rewarded" translatable="false">ca-app-pub-1607968585289432/6788915339</string>
+    <string name="ad_rewarded_interstitial" translatable="false">ca-app-pub-1607968585289432/4647248984</string>
+
+    <!--
+        Your own phones/emulators. Devices listed here receive "Test Ad" versions of the live ads,
+        so you can tap them safely (tapping your own live ads can get the AdMob account banned).
+        How to find your ID: run the app, open Logcat in Android Studio, search for "setTestDeviceIds".
+        Copy the quoted ID from that line into an <item> below, e.g.
+            <item>33BE2250B43518CCDA7DE426D04EE231</item>
+    -->
+    <string-array name="ad_test_devices" translatable="false">
+    </string-array>
+</resources>
